@@ -12,3 +12,14 @@ Installation
 - Deploy index.php on to PHP application server
 - Hit the URL : localhost/books, to get the book titles for all books
 - And URL : localhost/books/id (where id is a number for e.g. 1/2/3) to get the entire book details for that particular ID.
+
+Database Schema
+-----------------------
+
+Database schema for above file is as follows:
+Book (Book-id, title, year, price, category)
+Book-Authors (Book-id, Author_id)
+Authors (Author-id, Author-Name)
+
+
+
